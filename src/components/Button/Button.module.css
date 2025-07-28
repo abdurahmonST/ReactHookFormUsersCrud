@@ -1,0 +1,42 @@
+.button {
+  font-size: 1rem;
+  padding: 0.6em 1.5em;
+  border-radius: 6px;
+  border: 1.5px solid #6366f1;
+  outline: none;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s;
+  background: #6366f1;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.button:active {
+  box-shadow: 0 0 0 2px #6366f133;
+}
+
+.default {
+  background: #6366f1;
+  color: #fff;
+  border: 1.5px solid #6366f1;
+}
+
+.outlined {
+  background: #fff;
+  color: #6366f1;
+  border: 2px solid #6366f1;
+}
+
+.filled {
+  background: #a5b4fc;
+  color: #222;
+  border: 1.5px solid #6366f1;
+}
+
+.button:disabled {
+  background: #e5e7eb;
+  color: #9ca3af;
+  border: 1.5px solid #d1d5db;
+  cursor: not-allowed;
+} 
